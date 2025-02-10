@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = "aanuoluwapoakinyera" //Use your own Docker Username
+        DOCKERHUB_USERNAME = "aanuoluwapoakinyera" //Use your own Docker Username please
         DOCKER_IMAGE = "vote"  // Change to your Docker Hub repo name
         DOCKER_TAG = "latest"
         DOCKER_HUB_CREDENTIALS = "docker-hub-credentials"  // Set this in Jenkins credentials
